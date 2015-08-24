@@ -1,5 +1,5 @@
 {
-  "firebase": "purestripe",
+  "firebase": "angularfireapping",
   "public": "app/",
   "ignore": [
     "firebase.json",

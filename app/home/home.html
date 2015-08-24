@@ -4,14 +4,194 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>100% Pure Fire!</title>
 </head>
-<body ng-controlle="HomeCtrl" ng-cloak>
-    <div class="container">
-        <div class="container">
-            <div class="jumbotron" style="padding-bottom:0px;">
-                <h2 class="text-center">100% Pure Fire! Home</h2>
-                <a href="#/register">Register</a>
+    <body ng-controlle="HomeCtrl" ng-cloak>
+        <div role="main">
+      <!--Added Custom Banner-->
+      <div class="banner-container">
+        <div class="banner" style="background-image: url(//d3a1v57rabk2hm.cloudfront.net/puritybox/tasty/images/layout.jpg);" data-barley="banner-image" data-barley-editor="bgimage" data-width="1600" data-height="1000">
+          <div class="container p-v-lg">
+            <div class="m-t-lg m-b-lg p-h-lg p-v-lg" style="background: rgba(255, 255, 255, 0.3);">
+              <div class="barley_hide_outline" data-barley="home_heading" data-barley-editor="plus" contenteditable="false" style="text-align:center">
+                <h2>
+                  Subscription box for 100% Pure
+                </h2>
+                <!--h1>Countdown to PureBox</h1>
+                <h3><span id="countdown-holder"></span> left</h3-->
+              </div>
+              <div class="paragraph body-grp" data-barley="home_sub_heading" data-barley-editor="advanced">
+                Monthly curated beauty products from 100 Percent Pure tailored to your personal cosmetic needs
+
+                
+              </div>               
+              <div class="cta">
+                <a class="btn btn-success btn-stroke b-2x" href="/subscribe">
+                  Get Started
+                </a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+     <!--End Custom Banner-->
+      
+      <div class="intro-container gift-container">
+        <div class="container">
+          <div class="heading">
+            <h2>Give a Gift!</h2>
+            <div class="paragraph">
+              Complete your skin type profile and set your subscription plan.  Once we receive your order we will customize and ship your Pure Box out to you.  Sign up and send a gift box to a friend!
+            </div>        
+          </div>      
+          <div class="cta cta-gift">
+            <a href="/subscribe/gift/" class="btn btn-success btn-stroke b-2x gift-btn">Give a Gift</a>
+          </div>       
+        </div>
+      </div>
+      
+      <hr />
+      
+      <div class="intro-container gift-container">
+        <div class="container">
+          <div class="col-md-6">
+            <div class="heading">
+              <h2>What's inside</h2>
+              <div class="paragraph">
+                Each box comes with one hero (large) item along with 3 medium size cosmetics and 4 makeup products.  Customers with annual subscriptions receive an additional hero unit each month.
+              </div>          
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="{{ 'images/box1.png' | asset_url }}" class="img-responsive" />
+          </div>                
+        </div>
+      </div>  
+
+      <hr />  
+      
+      <!--Added Custom Intro-->
+      <div class="intro-container">
+        <div class="container">
+          <div class="heading">
+            <h2>
+              How it Works
+            </h2>
+          </div>
+          <div class="paragraph" data-barley="home_hiw_sub_heading" data-barley-editor="advanced">
+            Complete your skin type profile and set your subscription plan.  Once we receive your order we will customize and ship your Pure Box out to you.  Sign up and send a gift box to a friend!
+          </div>
+        </div>
+        <!--Added BS Jumbotron Promos-->
+        <div class="main-promos">
+          <div class="container">
+            <div class="row promos">
+              <div class="col-md-4">
+                <div class="panel panel-card p m-b-sm">
+                  <!--div data-barley="home_step1_title" data-barley-editor="plus" class="heading secondary-heading-grp">
+    <h2>
+    Step 1
+    </h2>
+    </div-->
+                  <div class="paragraph subheadline barley_hide_outline" data-barley="home_step1_subtitle" data-barley-editor="advanced" contenteditable="false">
+                    Set up your profile
+                  </div>
+                  <div class="sml-promo-text paragraph small-body-grp barley_hide_outline" data-barley="hiw_step1_desc" data-barley-editor="advanced" contenteditable="false">
+                    Complete your profile by answering specific questions about your beauty preferences.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-card p m-b-sm">
+                  <!--div data-barley="home_step2_title" data-barley-editor="plus" class="heading secondary-heading-grp">
+    <h2>
+    Step 2
+    </h2>
+    </div-->
+                  <div class="paragraph subheadline" data-barley="home_step2_subtitle" data-barley-editor="advanced">
+                    Choose a frequency
+                  </div>
+                  <div class="sml-promo-text paragraph small-body-grp barley_hide_outline" data-barley="hiw_step2_desc" data-barley-editor="advanced" contenteditable="false">
+                    Plans start from month to month to yearly subscriptions.  Save by subscribing to a longer term.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-card p m-b-sm">
+                  <!--div data-barley="home_step3_title" data-barley-editor="plus" class="heading secondary-heading-grp">
+    <h2>
+    Step 3
+    </h2>
+    </div-->
+                  <div class="paragraph subheadline" data-barley="home_step3_subtitle" data-barley-editor="advanced" contenteditable="false">
+                    Receive your Pure Box!
+                  </div>
+                  <div class="sml-promo-text paragraph small-body-grp barley_hide_outline" data-barley="hiw_step3_desc" data-barley-editor="advanced" contenteditable="false">
+                    After completing your subscription order we will send you your Pure Box.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+
+          <hr />      
+          
+          <div class="intro-container gift-container">
+            <div class="container">
+              <div class="col-md-6">
+                <img src="{{ 'images/box7.png' | asset_url }}" class="img-responsive" />
+              </div>      
+              <div class="col-md-6">
+                <div class="heading">
+                  <h2>Monthly surprise</h2>
+                  <div class="paragraph">
+                    All of our Pure Boxes come with a surprise gift that is not available for sale in store or on our website.  Be the first try some of 100% Pure's newest products before they are released to the public!
+                  </div>          
+                </div>
+              </div>                
+            </div>
+          </div>  
+
+        </div>
+      </div>
+
+      <hr />
+      
+     {% if settings.seenin_img1 or settings.seenin_img2 or settings.seenin_img3 or settings.seenin_img4 %}
+     <!--Added Logos-->
+     <div class="seenin-logos-container">
+      <div class="container">
+       <div class="row">
+        <div data-barley="home_asseenin_title" data-barley-editor="plus" class="heading small-heading-alt-grp">
+         <h2>
+          As Seen In
+         </h2>
+        </div>
+        {% if settings.seenin_img1 %}
+        <div class="col-md-3 seenin-logo" data-barley="home_seenin_img1" data-barley-editor="image" data-width="160" data-height="18">
+         <img src="{{ settings.seenin_img1 | asset_url }}"/>
+        </div>
+        {% endif %}
+                    {% if settings.seenin_img2 %}
+        <div class="col-md-3 seenin-logo" data-barley="home_seenin_img2" data-barley-editor="image" data-width="121" data-height="31">
+         <img src="{{ settings.seenin_img2 | asset_url }}"/>
+        </div>
+        {% endif %}
+                    {% if settings.seenin_img3 %}
+        <div class="col-md-3 seenin-logo" data-barley="home_seenin_img3" data-barley-editor="image" data-width="167" data-height="40">
+         <img src="{{ settings.seenin_img3 | asset_url }}"/>
+        </div>
+        {% endif %}
+                    {% if settings.seenin_img4 %}
+        <div class="col-md-3 seenin-logo" data-barley="home_seenin_img4" data-barley-editor="image" data-width="120" data-height="29">
+         <img src="{{ settings.seenin_img4 | asset_url }}"/>
+        </div>
+        {% endif %}
+       </div>
+      </div>
+     </div> 
+     <div>
+         <a href="#/register"><button type="button">register</button></a>
+     </div>
+
 </body>
 </html>

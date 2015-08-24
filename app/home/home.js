@@ -15,7 +15,7 @@ App.config(['$routeProvider', function($routeProvider) {
 App.controller('HomeCtrl', [
    '$scope', '$rootScope',
    function($scope) {
-      var ref = new Firebase('https://purestripe.firebaseio.com/');
+      var ref = new Firebase('https://angularfireapping.firebaseio.com/');
 
       
    }

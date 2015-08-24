@@ -8,6 +8,16 @@ App.config(['$routeProvider', function($routeProvider) {
         templateUrl: 'register/register.html',
         controller: 'RegisterCtrl'
     });
+
+        $routeProvider.when('/resetPassword', {
+       templateUrl: 'register/resetPassword.html',
+       controller: 'RegesterCtrl'
+    });
+
+    $routeProvider.when('/forgotPassword', {
+       templateUrl: 'register/forgotPassword.html',
+       controller: 'RegesterCtrl'
+    });
 }])
 
 // Register controller
